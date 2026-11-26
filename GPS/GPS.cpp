@@ -26,7 +26,7 @@ struct PositionFix {
     double latitudeDegrees;
     double longitudeDegrees;
     double altitudeMeters;
-    double horizontalDilution;  // HDOP: lower values indicate better satellite geometry.
+    double horizontalDilution; 
     int qualityCode;
     int satelliteCount;
 };
